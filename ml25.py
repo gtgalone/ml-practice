@@ -39,8 +39,8 @@ y_data = xy[:, [-1]]
 # get data from huge or many files
 filename_queue = tf.train.string_input_producer(
     ['../DeepLearningZeroToAll/data-01-test-score.csv'],
-    shuffle=False, name='filename_queue'
-)
+    shuffle=False, name='filename_queue')
+    
 # shuffle_batch
 """
 min_after_dequeue = 10000
